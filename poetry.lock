@@ -234,20 +234,36 @@ isodate = ">=0.6.1,<1.0.0"
 
 [[package]]
 name = "azure-ai-textanalytics"
-version = "5.0.0"
+version = "5.3.0"
 description = "Microsoft Azure Text Analytics Client Library for Python"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "azure-ai-textanalytics-5.0.0.zip", hash = "sha256:909b0b8b5173dcad11ab1b21fb675a19b4cd588d7d780b5b196efb59eb1c7827"},
-    {file = "azure_ai_textanalytics-5.0.0-py2.py3-none-any.whl", hash = "sha256:684f6939176f7fff6ef3bc3397698d6e74ac1e9b1874ef7005241c1c4aeb8d51"},
+    {file = "azure-ai-textanalytics-5.3.0.zip", hash = "sha256:4f7d067d5bb08422599ca6175510d39b0911c711301647e5f18e904a5027bf58"},
+    {file = "azure_ai_textanalytics-5.3.0-py3-none-any.whl", hash = "sha256:69bb736d93de81060e9075d42b6f0b92c25be0fb106da5cb6a6d30e772168221"},
 ]
 
 [package.dependencies]
 azure-common = ">=1.1,<2.0"
-azure-core = ">=1.4.0,<2.0.0"
-msrest = ">=0.6.0"
-six = ">=1.6"
+azure-core = ">=1.24.0,<2.0.0"
+isodate = ">=0.6.1,<1.0.0"
+typing-extensions = ">=4.0.1"
+
+[[package]]
+name = "azure-ai-translation-text"
+version = "1.0.0b1"
+description = "Azure Text Translation Client Library for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "azure-ai-translation-text-1.0.0b1.zip", hash = "sha256:2c9eeb292f669f7e4592903ba0a39c2ce5343f61c6db2a688f67be228846b4d5"},
+    {file = "azure_ai_translation_text-1.0.0b1-py3-none-any.whl", hash = "sha256:af700c3cd3253100c563bcc26ecdc9ab993c85297e790f0c526e801335127a8d"},
+]
+
+[package.dependencies]
+azure-core = ">=1.24.0,<2.0.0"
+msrest = ">=0.7.1"
+typing-extensions = ">=4.3.0"
 
 [[package]]
 name = "azure-ai-vision"
@@ -2302,4 +2318,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c3cd0ff287bdd0a782d9a527353a4e041e2e672f01ca81c0b9cd562f2029412b"
+content-hash = "a9c1ecdafaaec632adfef41875b2e765fd419079d3e05e9518dddc91d5455cbb"
