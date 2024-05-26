@@ -74,6 +74,8 @@ async def analyze_image(args: Args):
         str(settings.BASE_DIR / "src" / "vision" / "outputs" / "detected_people.png"),
     )
 
+    return result
+
 
 if __name__ == "__main__":
     asyncio.run(analyze_image(Args(path=sys.argv[1])))

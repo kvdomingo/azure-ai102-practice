@@ -219,6 +219,17 @@ msrest = ">=0.6.0"
 six = ">=1.6"
 
 [[package]]
+name = "azure-ai-vision"
+version = "0.15.1b1"
+description = "Microsoft Azure AI Vision SDK for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "azure_ai_vision-0.15.1b1-py3-none-manylinux1_x86_64.whl", hash = "sha256:e4c027d77024ddaf2810b0f041c3c8c20d92af1e983f271d96d8a4736fa2c27f"},
+    {file = "azure_ai_vision-0.15.1b1-py3-none-win_amd64.whl", hash = "sha256:b6b92f8a989ec22c7dd2daf6b49973f194470b70d17c710199cba72eb806791e"},
+]
+
+[[package]]
 name = "azure-ai-vision-imageanalysis"
 version = "1.0.0b1"
 description = "Microsoft Azure Ai Vision Imageanalysis Client Library for Python"
@@ -2260,4 +2271,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "752cd84d691c09a02c89e992af765e0bb331cd2f6f6ecde9bba18e5c940cde05"
+content-hash = "3b00147265893ef0d22f1aad4762e01a7011c4260727e26b443f31d0c8f88985"

@@ -40,6 +40,8 @@ async def background_removal():
     ) as f:
         await f.write(img)
 
+    return img
+
 
 if __name__ == "__main__":
     asyncio.run(background_removal())
