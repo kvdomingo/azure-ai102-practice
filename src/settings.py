@@ -16,6 +16,10 @@ class Settings(BaseSettings):
     AZURE_AI_SUBSCRIPTION_KEY: str
     AZURE_AI_VIDEO_INDEXER_KEY: str
     AZURE_AI_VIDEO_ACCOUNT_ID: str
+    AZURE_AI_LANGUAGE_SUBSCRIPTION_KEY: str
+    AZURE_AI_LANGUAGE_ENDPOINT: AnyHttpUrl
+    AZURE_AI_LANGUAGE_PROJECT_NAME: str
+    AZURE_AI_LANGUAGE_DEPLOYMENT_NAME: str
 
     BASE_DIR: Path = Path(__file__).resolve().parent.parent
 

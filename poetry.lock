@@ -202,6 +202,21 @@ azure-core = ">=1.6.0,<2.0.0"
 msrest = ">=0.5.0"
 
 [[package]]
+name = "azure-ai-language-questionanswering"
+version = "1.1.0"
+description = "Microsoft Azure Question Answering Client Library for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "azure-ai-language-questionanswering-1.1.0.zip", hash = "sha256:3d53c9d2d76c6ddf251a7527602888d41b82ee80edfd2062f4277f885ae9fb48"},
+    {file = "azure_ai_language_questionanswering-1.1.0-py3-none-any.whl", hash = "sha256:c7c3aab949673a4b2a639da8c73e82448d73d311c8d624150d62133a330e0b59"},
+]
+
+[package.dependencies]
+azure-core = ">=1.24.0,<2.0.0"
+isodate = ">=0.6.1,<1.0.0"
+
+[[package]]
 name = "azure-ai-textanalytics"
 version = "5.0.0"
 description = "Microsoft Azure Text Analytics Client Library for Python"
@@ -2271,4 +2286,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "0471909d5071f69fcacc5b0074d18e507dc1fd091e96a822cb92e3b39163dec6"
+content-hash = "069cc62c835020594927d3b37a5ea49b1de763388b7b5c37f282941a1ab070a6"
