@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from pydantic import AnyHttpUrl
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -12,3 +14,8 @@ class Settings(BaseSettings):
 
     AZURE_AI_ENDPOINT: AnyHttpUrl
     AZURE_AI_SUBSCRIPTION_KEY: str
+
+    BASE_DIR: Path = Path(__file__).resolve().parent.parent
+
+
+settings = Settings()
