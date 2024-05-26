@@ -202,6 +202,22 @@ azure-core = ">=1.6.0,<2.0.0"
 msrest = ">=0.5.0"
 
 [[package]]
+name = "azure-ai-language-conversations"
+version = "1.1.0"
+description = "Microsoft Azure Conversational Language Understanding Client Library for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "azure-ai-language-conversations-1.1.0.zip", hash = "sha256:d3b996bd7134da32db8ade1d5371fac7143b968572ed4c0fa62768d7494b831f"},
+    {file = "azure_ai_language_conversations-1.1.0-py3-none-any.whl", hash = "sha256:b96797bbc46f8a03fd5807d225b765d474b67a271727ee2bd6387a450e383c2b"},
+]
+
+[package.dependencies]
+azure-core = ">=1.24.0,<2.0.0"
+isodate = ">=0.6.1,<1.0.0"
+typing-extensions = ">=4.0.1"
+
+[[package]]
 name = "azure-ai-language-questionanswering"
 version = "1.1.0"
 description = "Microsoft Azure Question Answering Client Library for Python"
@@ -2286,4 +2302,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "069cc62c835020594927d3b37a5ea49b1de763388b7b5c37f282941a1ab070a6"
+content-hash = "c3cd0ff287bdd0a782d9a527353a4e041e2e672f01ca81c0b9cd562f2029412b"

@@ -36,6 +36,7 @@ matplotlib = "^3.9.0"
 pillow = "^10.3.0"
 numpy = "^1.26.4"
 azure-ai-language-questionanswering = "^1.1.0"
+azure-ai-language-conversations = "^1.1.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.5"
