@@ -14,6 +14,8 @@ class Settings(BaseSettings):
 
     AZURE_AI_ENDPOINT: AnyHttpUrl
     AZURE_AI_SUBSCRIPTION_KEY: str
+    AZURE_AI_VIDEO_INDEXER_KEY: str
+    AZURE_AI_VIDEO_ACCOUNT_ID: str
 
     BASE_DIR: Path = Path(__file__).resolve().parent.parent
 
