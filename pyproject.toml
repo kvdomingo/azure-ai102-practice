@@ -28,7 +28,30 @@ azure-cognitiveservices-inkrecognizer = "1.0.0b1"
 pandas = "^2.2.2"
 pydantic-settings = "^2.2.1"
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.5"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+ignore-init-module-imports = true
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "C", "B", "UP"]
+ignore = ["E203", "E266", "E501", "E402", "UP007"]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-wrap-aliases = true
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = ["pydantic.validator"]
