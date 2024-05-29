@@ -20,6 +20,8 @@ class Settings(BaseSettings):
     AZURE_AI_LANGUAGE_ENDPOINT: AnyHttpUrl
     AZURE_AI_LANGUAGE_PROJECT_NAME: str
     AZURE_AI_LANGUAGE_DEPLOYMENT_NAME: str
+    OPENAI_SECRET_KEY: str
+    OPENAI_ORGANIZATION_ID: str
 
     BASE_DIR: Path = Path(__file__).resolve().parent.parent
 
